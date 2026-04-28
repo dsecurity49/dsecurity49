@@ -19,6 +19,7 @@ I’m a BCA student in Bengaluru, focused on building secure, automated backend 
 
 ### 📬 Connect with me
 * **GitHub:** [@dsecurity49](https://github.com/dsecurity49)
+* **Discord:** [Join the Intent-Bus server](https://discord.gg/bzAneAQzGX) — *Drop in for Intent-Bus tester keys or dev chat.*
 * **Focus:** I recently delivered contracted freelance services for TBR Digital Pvt Ltd and am always open to collaborating on secure infrastructure, automation, or backend projects.
 
 ---
