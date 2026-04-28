@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Dhanush (aka dsecurity)
+# 👋 Hello, I'm Dhanush. (aka dsecurity)
 
 ### 🛡️ Cybersecurity Enthusiast & Systems Developer
 I’m a BCA student in Bengaluru, focused on building secure, automated backend systems and exploring the intersection of systems engineering and security.
