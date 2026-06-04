@@ -1,36 +1,41 @@
 # 👋 Hello, I'm Dhanush (aka dsecurity49)
 
-### Backend Security & Distributed Systems Engineer
-BCA student in Bengaluru, building secure, automated backend systems at the intersection of systems engineering and application security.
+BCA student in Bengaluru, building secure backend systems at the intersection of systems engineering and application security.
 
 ---
 
 ### Featured Projects
 
+**[safe-migrate](https://github.com/dsecurity49/safe-migrate)** — Rust-based PostgreSQL migration linter that checks live table sizes
+- Combines AST-based SQL analysis with pg_class row counts to halt dangerous lock operations before they reach production
+- Cross-compiles to static musl binaries for Linux, Mac, Windows via GitHub Actions matrix
+- Published on crates.io
+
 **[Intent Bus](https://github.com/dsecurity49/Intent-Bus)** — Zero-dependency distributed job queue & KV store
 - Flask + SQLite backend for cross-device script coordination (Termux/Linux/Android)
 - Atomic claim semantics, exponential backoff, dead-letter queues
-- 4,250+ PyPI downloads, r/flask #1 post, 8 GitHub stars
+- 25 GitHub stars, r/flask #1 post
+
+**[Intent Bus SDK](https://github.com/dsecurity49/Intent-Bus-sdk)** — Python client for Intent Bus
+- Published on PyPI as `intent-bus`
+- 5,850+ downloads
+
 
 **Autonomous Hardware** — Arduino-based human-following robot
 - Low-level C++ sensor control + real-time processing pipeline
 - Bridged embedded systems with higher-level automation workflows
-
-**Automation & DevSecOps Tools** — Custom backends for secure workflows
-- Webhook orchestration, credential management, CI/CD pipelines
-- LocalXpose tunneling for mobile-first architectures
 
 ---
 
 ### Engineering Impact & GitHub Insights
 
 <p align="center">
-  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=dsecurity49&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
-
-  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=dsecurity49&layout=compact&theme=tokyonight&hide=html,css" alt="Top Languages" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=dsecurity49&show_icons=true&theme=tokyonight&count_private=true&refresh=true" alt="GitHub Stats" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=dsecurity49&layout=compact&theme=tokyonight&hide=html,css&refresh=true" alt="Top Languages" />
 </p>
 
-###  Activity
+### Activity
+
 
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dsecurity49&theme=tokyonight&hide_border=true)
@@ -52,13 +57,13 @@ BCA student in Bengaluru, building secure, automated backend systems at the inte
 
 ### Tech Stack & Infrastructure
 
-**Languages:** Python, JavaScript, SQL, C++  
-**Backend & Cloud:** Flask, SQLite, Railway, Netlify, PythonAnywhere  
-**Networking:** LocalXpose, ngrok, zero-trust polling architectures  
-**AI & LLMs:** Gemini API, Syrin agent framework, LiteLLM routing  
-**Security:** API key management, atomic operations, network isolation  
+**Languages:** Python, Rust, JavaScript, SQL, C++
+**Backend & Cloud:** Flask, SQLite, Railway, Netlify, PythonAnywhere
+**Networking:** LocalXpose, ngrok, zero-trust polling architectures
+**AI & LLMs:** Gemini API, Syrin agent framework, LiteLLM routing
+**Security:** API key management, atomic operations, network isolation
 
-**Specialties:** DevSecOps, distributed systems, security auditing, bug bounty research
+**Specialties:** DevSecOps, distributed systems, CLI tooling, security auditing, bug bounty research
 
 ---
 
