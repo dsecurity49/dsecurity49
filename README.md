@@ -34,12 +34,6 @@ BCA student in Bengaluru, building secure backend systems at the intersection of
   <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=dsecurity49&layout=compact&theme=tokyonight&hide=html,css&refresh=true" alt="Top Languages" />
 </p>
 
-### Activity
-
-
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dsecurity49&theme=tokyonight&hide_border=true)
-
 
 
 <p align="right">
