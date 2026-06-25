@@ -30,8 +30,8 @@ BCA student in Bengaluru, building secure backend systems at the intersection of
 ### Engineering Impact & GitHub Insights
 
 <p align="center">
-  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=dsecurity49&show_icons=true&theme=tokyonight&count_private=true&refresh=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=dsecurity49&layout=compact&theme=tokyonight&hide=html,css&refresh=false" alt="Top Languages" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=dsecurity49&show_icons=true&theme=tokyonight&count_private=true&refresh=false" alt="GitHub Stats" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=dsecurity49&layout=compact&theme=tokyonight&hide=html,css&refresh=true" alt="Top Languages" />
 </p>
 
 
