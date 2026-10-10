@@ -1,72 +1,48 @@
-# 👋 Hello, I'm Dhanush (aka dsecurity49)
+# Hey, I'm Dhanush 👋
 
-BCA student in Bengaluru, building secure backend systems at the intersection of systems engineering and application security.
+BCA student in Bengaluru. I build tools for PostgreSQL safety and cross-device automation.
 
----
+## Projects
 
-### Featured Projects
+**[safe-migrate](https://github.com/dsecurity49/safe-migrate)**
 
-**[safe-migrate](https://github.com/dsecurity49/safe-migrate)** — Rust-based PostgreSQL migration linter that checks live table sizes
-- Combines AST-based SQL analysis with pg_class row counts to halt dangerous lock operations before they reach production
-- Cross-compiles to static musl binaries for Linux, Mac, Windows via GitHub Actions matrix
-- Published on crates.io
+A Rust tool that analyzes PostgreSQL migrations before deployment. It models migration chains against an optional synchronized database snapshot and flags risky locks, table rewrites, destructive changes, schema drift, and ordering problems. Supports PostgreSQL 14–18.
 
-**[Intent Bus](https://github.com/dsecurity49/Intent-Bus)** — Zero-dependency distributed job queue & KV store
-- Flask + SQLite backend for cross-device script coordination (Termux/Linux/Android)
-- Atomic claim semantics, exponential backoff, dead-letter queues
-- 25 GitHub stars, r/flask #1 post
-
-**[Intent Bus SDK](https://github.com/dsecurity49/Intent-Bus-sdk)** — Python client for Intent Bus
-- Published on PyPI as `intent-bus`
-- 5,850+ downloads
-
-
-**Autonomous Hardware** — Arduino-based human-following robot
-- Low-level C++ sensor control + real-time processing pipeline
-- Bridged embedded systems with higher-level automation workflows
+[Releases](https://github.com/dsecurity49/safe-migrate/releases) · [Crates.io](https://crates.io/crates/safe-migrate)
 
 ---
 
-### Engineering Impact & GitHub Insights
+**[Intent Bus](https://github.com/dsecurity49/Intent-Bus)**
+
+A small HTTP job bus built with Flask and SQLite. It coordinates scripts across servers, Linux machines, and Android/Termux, with atomic job claims, retries, priorities, worker routing, and a dead-letter queue—without a separate message broker.
+
+[Releases](https://github.com/dsecurity49/Intent-Bus/releases)
+
+---
+
+**[Intent Bus SDK](https://github.com/dsecurity49/Intent-Bus-sdk)**
+
+The Python client and worker runtime for Intent Bus, including a CLI, typed response models, retry-aware transport, and optional shared key-value state.
+
+[PyPI](https://pypi.org/project/intent-bus/)
+
+## Open-source Contributions
+
+- **[vercel/ms](https://github.com/vercel/ms/issues/284):** Reported a round-trip bug with very large numbers that `format()` couldn't parse back.
+- **[Wasmtime](https://github.com/bytecodealliance/wasmtime):** Contributed a few PRs fixing compiler and AArch64 instruction-handling issues.
+
+## GitHub Insights
 
 <p align="center">
   <img height="180em" src="https://github-stats-extended.vercel.app/api?username=dsecurity49&show_icons=true&theme=tokyonight&count_private=true&refresh=false" alt="GitHub Stats" />
-  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=dsecurity49&layout=compact&theme=tokyonight&hide=html,css&refresh=true" alt="Top Languages" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=dsecurity49&layout=compact&theme=tokyonight&hide=html,css&refresh=true" alt="GitHub Languages" />
 </p>
-
-
 
 <p align="right">
-  <img src="https://komarev.com/ghpvc/?username=dsecurity49&label=Profile%20Views&color=0e75b6&style=flat" alt="Views" />
+  <img src="https://komarev.com/ghpvc/?username=dsecurity49&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
----
 
-### Open Source Contributions & Security Findings
+## Contact
 
-- **[vercel/ms #284](https://github.com/vercel/ms/issues/284)** — Discovered scientific notation roundtrip bug; `format()` outputs values `parse()` cannot consume (breaks API contract)
-- **[syrin-labs/syrin-integrations #20](https://github.com/syrin-labs/syrin-integrations/pull/20)** — Distributed AI agent integration with Intent Bus; multi-provider LLM support, atomic claims, state persistence (under review)
-
----
-
-### Tech Stack & Infrastructure
-
-**Languages:** Python, Rust, JavaScript, SQL, C++
-**Backend & Cloud:** Flask, SQLite, Railway, Netlify, PythonAnywhere
-**Networking:** LocalXpose, ngrok, zero-trust polling architectures
-**AI & LLMs:** Gemini API, Syrin agent framework, LiteLLM routing
-**Security:** API key management, atomic operations, network isolation
-
-**Specialties:** DevSecOps, distributed systems, CLI tooling, security auditing, bug bounty research
-
----
-
-### Connect & Collaborate
-
-- **GitHub:** [@dsecurity49](https://github.com/dsecurity49)
-- **Discord:** [Intent Bus community server](https://discord.gg/bzAneAQzGX) — tester keys, dev chat, architecture discussions
-- **Open to:** Contract work on secure infrastructure, distributed systems, backend automation, security audits
-
----
-
-*"Simplicity is the soul of efficiency."*
+For questions, ideas, or collaboration, reach me at [dsecurity49@gmail.com](mailto:dsecurity49@gmail.com) or open an issue in the relevant repository.
